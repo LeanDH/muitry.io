@@ -1,0 +1,61 @@
+@charset "UTF-8";
+
+.icon-dksq {
+  background: url(../../img/loanservice/dksq.png) no-repeat;
+  -webkit-background-size: 100% auto;
+  background-size: 100% auto;
+}
+
+.icon-dksqjl {
+  background: url(../../img/loanservice/dksqjl.png) no-repeat;
+  -webkit-background-size: 100% auto;
+  background-size: 100% auto;
+}
+
+.icon-bdkh {
+  background: url(../../img/bindingservice/binding.png) no-repeat;
+  -webkit-background-size: 100% auto;
+  background-size: 100% auto;
+}
+
+.icon-jbkh {
+  background: url(../../img/bindingservice/unbinding.png) no-repeat;
+  -webkit-background-size: 100% auto;
+  background-size: 100% auto;
+}
+
+.icon-jffw {
+  background: url(../../img/pointsservice.png) no-repeat;
+  -webkit-background-size: 100% auto;
+  background-size: 100% auto;
+}
+
+.icon-jfdh {
+  background: url(../../img/pointsservice/exchange.png) no-repeat;
+  -webkit-background-size: 100% auto;
+  background-size: 100% auto;
+}
+
+.icon-jfyecx {
+  background: url(../../img/pointsservice/query_jfye.png) no-repeat;
+  -webkit-background-size: 100% auto;
+  background-size: 100% auto;
+}
+
+.icon-jfjycx {
+  background: url(../../img/pointsservice/query_jfjy.png) no-repeat;
+  -webkit-background-size: 100% auto;
+  background-size: 100% auto;
+}
+
+.icon-hhrzc {
+  background: url(../../img/partnerservice/parter_reg.png) no-repeat;
+  -webkit-background-size: 100% auto;
+  background-size: 100% auto;
+}
+
+.icon-hhryq {
+  background: url(../../img/partnerservice/partner_inv.png) no-repeat;
+  -webkit-background-size: 100% auto;
+  background-size: 100% auto;
+}

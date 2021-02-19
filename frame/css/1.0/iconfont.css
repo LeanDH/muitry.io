@@ -1,0 +1,59 @@
+@font-face {font-family: "iconfont";
+  src: url('fonts/iconfont.ttf') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 24px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-wydk:before {
+  content: "\e7ba";
+}
+
+.icon-bdfw:before {
+  content: "\e648";
+}
+
+.icon-jffw:before {
+  content: "\e727";
+}
+
+.icon-cffw:before {
+  content: "\e7f1";
+}
+
+.icon-jkyl:before {
+  content: "\e7e2";
+}
+
+.icon-hdbm:before {
+  content: "\e619";
+}
+
+.icon-ckzz:before {
+  content: "\eba0";
+}
+
+.icon-yjjy:before {
+  content: "\e8a1";
+}
+
+.icon-gbzs:before {
+  content: "\e68e";
+}
+
+.icon-hhr:before {
+  content: "\e604";
+}
+
+.icon-ymtsyed:before {
+  content: "\e651";
+}
+
+.icon-zxsq:before {
+  content: "\e659";
+}
