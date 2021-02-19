@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title></title>
+		<!--标准mui.css-->
+		<link rel="stylesheet" href="../frame/css/1.0/mui.min.css">
+		<!--App自定义的css-->
+		<link rel="stylesheet" type="text/css" href="../frame/css/1.0/app.css" />
+		<link href="../frame/css/1.0/mui.picker.css" rel="stylesheet" />
+		<link href="../frame/css/1.0/mui.poppicker.css" rel="stylesheet" />
+		<!--<link rel="stylesheet" type="text/css" href="../css/mui.picker.min.css" />-->
+		<style>
+			.mui-btn {
+				font-size: 16px;
+				padding: 8px;
+				margin: 3px;
+			}
+			h5.mui-content-padded {
+				margin-left: 3px;
+				margin-top: 20px !important;
+			}
+			h5.mui-content-padded:first-child {
+				margin-top: 12px !important;
+			}
+			.ui-alert {
+				text-align: center;
+				padding: 20px 10px;
+				font-size: 16px;
+			}
+		</style>
+	</head>
+
+	<body>
+		<header class="mui-bar mui-bar-nav">
+			<a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left"></a>
+			<h1 class="mui-title">岗位流程简介</h1>
+		</header>
+		<div class="mui-content">
+			<div class="mui-content-padded">
+				<h5 class="mui-content-padded"></h5>
+				<h5 class="mui-content-padded"></h5>
+
+				<button id="gwzz-bdy" class="mui-btn mui-btn-primary mui-btn-block">办贷员</button>
+				<h3 class="mui-content-padded"></h3>
+				<button id="gwzz-khjl" class="mui-btn mui-btn-success mui-btn-block">客户经理</button>
+
+			</div>
+		</div>
+		<script src="../frame/js/mui.js"></script>
+		<script src="../frame/js/mui.picker.js"></script>
+		<script src="../frame/js/mui.poppicker.js"></script>
+		<script src="../frame/js/plist.js" type="text/javascript" charset="utf-8"></script>
+		<script>
+			(function($, doc) {
+				$.init();
+				$.ready(function() {
+
+					//页面返回刷新
+					window.addEventListener('refresh', function(e){//执行刷新
+					    location.reload();
+					});
+
+					document.getElementById('gwzz-bdy').addEventListener('tap', function() {
+					        mui.openWindow({
+					            url: './gwzz_bdy.html', 
+					        })
+					});
+
+					document.getElementById('gwzz-khjl').addEventListener('tap', function() {
+					        mui.openWindow({
+					            url: './gwzz_kehjl.html', 
+					        })
+					});
+
+				});
+			})(mui, document);
+		</script>
+	</body>
+
+</html>
