@@ -19,3 +19,10 @@
 	font-size: 14px;
 	color: #8f8f94;
 }
+
+.sec-font {
+	font-size: 17px;
+	font-weight: bolder;
+	 
+	word-break:break-all; 
+}
