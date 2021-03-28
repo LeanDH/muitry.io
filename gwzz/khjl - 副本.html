@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title></title>
+		<!--标准mui.css-->
+		<link rel="stylesheet" href="../frame/css/1.0/mui.min.css">
+		<!--App自定义的css-->
+		<link rel="stylesheet" type="text/css" href="../frame/css/1.0/app.css" />
+		<link href="../frame/css/1.0/mui.picker.css" rel="stylesheet" />
+		<link href="../frame/css/1.0/mui.poppicker.css" rel="stylesheet" />
+    	<link rel="stylesheet" href="../frame/css/bootstrap/css/bootstrap.min.css">
+		<style>
+			.mui-btn {
+				font-size: 16px;
+				padding: 8px;
+				margin: 3px;
+			}
+			h5.mui-content-padded {
+				margin-left: 3px;
+				margin-top: 20px !important;
+			}
+			h5.mui-content-padded:first-child {
+				margin-top: 12px !important;
+			}
+			.ui-alert {
+				text-align: center;
+				padding: 20px 10px;
+				font-size: 16px;
+			}
+		</style>
+	</head>
+
+	<body>
+		<header class="mui-bar mui-bar-nav">
+			<a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left"></a>
+			<h1 class="mui-title">客户经理岗位流程简介</h1>
+		</header>
+
+		<div class="app-back mui-content">
+			<div class="container">
+				<div class="row">
+
+					<div class="col-12 col-sm-12 col-md-6 col-lg-3">
+	                    <div class="offer-items app-margin-top">
+	                        <!-- <img src="assets/img/offer/offer_LP_img.png" class="img-fluid" alt="Learning Program"> -->
+	                        <h3 class="text-center">客户营销</h3>
+	                        <ul class="mui-table-view">
+			        	      		<li class="mui-table-view-cell mui-collapse ldh-unfold" id='sec'>
+			              			<a class="mui-navigate-right sec-font"  href="#" >1.了解不同的营销渠道</a>
+			              			<div class="mui-collapse-content">
+				              			<p>（1）产品：了解他行、本行产品，创新思维，发挥村镇银行的灵活优势。<br>（2）普通宣传：需勤奋和努力，通过街道、村居、市场。进行摆摊、传单、扫楼进行地毯式营销。<br>（3）数据分析：通过本行数据、外接数据分析，如通过本行存量客户了解客户共性、通过天眼查了解周边商户，通过工商、税务、公安等一些列数据了解周边商户情况。<br>（4）地方特色：了解当地情况，是否有某个产业或行业，发起批量营销。<br>（5）人脉：目前客户经理在做的，以老带新或通过亲朋好友拓展朋友圈。<br>（6）服务：高效、便利、灵活是我们的优势。<br>（7）互联网：抖音直播等，介绍产品。</p>	
+			              			</div>
+			              		</li>
+			              	</ul>
+	                    </div>
+	                </div>
+
+
+					<div class="col-12 col-sm-12 col-md-6 col-lg-3">
+	                    <div class="offer-items app-margin-top">
+	                        <!-- <img src="assets/img/offer/offer_LP_img.png" class="img-fluid" alt="Learning Program"> -->
+	                        <h3 class="text-center">客户受理</h3>
+	                        <ul class="mui-table-view">
+			        	      		<li class="mui-table-view-cell mui-collapse ldh-unfold" id='sec'>
+			              			<a class="mui-navigate-right sec-font"  href="#" >1.征信的签订</a>
+			              			<div class="mui-collapse-content">
+				              				<p>（1）主要方便对客户征信进行查询。因人行要求所有客户的征信查询必需有身份证复印件（或营业执照）、申请书。</p><br>
+			              			</div>
+			              		</li>
+			              		<li class="mui-table-view-cell mui-collapse ldh-unfold" id='sec'>
+			              			<a class="mui-navigate-right sec-font"  href="#" >2.基础信息的了解</a>
+			              			<div class="mui-collapse-content">
+			              				<p>（1）询问客户做什么生意，家庭地址、手机号码，对客户咨询做初步解答，并做好台账。<br>（2）方便客户经理的跟进和调查。能及时了解到客户从事的行业和区域范围、联系方式，可主动发起营销，这样成功率也相对较。<br>（3）方便找客户。如下发任务时，该台账上未发生信贷关系的客户可以成为我们营销的对象，解决的客户寻找的问题。</p><br>	
+			              			</div>
+			              		</li>
+			              		<li class="mui-table-view-cell mui-collapse ldh-unfold" id='sec'>
+			              			<a class="mui-navigate-right sec-font"  href="#">3.通过关键性问题的提问</a>
+			              			<div class="mui-collapse-content">
+										<p>（1）判断客户是否属于中介介绍，或是否属于借冒名贷款。（提问模块：请问您是朋友介绍到我行申请贷款，还是客户经理上门营销的呢？资金是否本人使用？<br>（2）防范贷款风险。主要为了防范借冒名贷款、中介贷款、垒大户的存在，为风险把关的第一个关口</p><br>	
+			              			</div>
+			              		</li>
+			              		
+			              	</ul>
+	                    </div>
+	                </div>
+
+
+					<div class="col-12 col-sm-12 col-md-6 col-lg-3">
+	                    <div class="offer-items app-margin-top">
+	                        <!-- <img src="assets/img/offer/offer_LP_img.png" class="img-fluid" alt="Learning Program"> -->
+	                        <h3 class="text-center">外出资料收集</h3>
+	                        <ul class="mui-table-view">
+			        	      		<li class="mui-table-view-cell mui-collapse ldh-unfold" id='sec'>
+			              			<a class="mui-navigate-right sec-font"  href="#" >1.一次性告知贷款所需的全部资料</a>
+			              			<div class="mui-collapse-content">
+			              				<p>（1）增加客户体验感。避免客户为了资料反复的来回跑，更能体现最多跑一次的理念。<br>（2）减少自己的工作量。避免客户反复的咨询所需的资料。</p><br>
+			              			</div>
+			              		</li>
+			              		<li class="mui-table-view-cell mui-collapse ldh-unfold" id='sec'>
+			              			<a class="mui-navigate-right sec-font"  href="#" >2.需亲见客户所提供资料原件</a>
+			              			<div class="mui-collapse-content">
+			              				<p>无特殊说明</p><br>
+			              			</div>
+			              		</li>
+			              		<li class="mui-table-view-cell mui-collapse ldh-unfold" id='sec'>
+			              			<a class="mui-navigate-right sec-font"  href="#">3.客户需对提供资料真实性签字确认</a>
+			              			<div class="mui-collapse-content">
+										<p>（1）对客户所提供原件进行复印，客户需对提供资料真实性签字确认(可在骑缝处签字确认)。<br>（2）确保资料的真实性。主要是防范客户资料的伪造，导致我行信贷资产的损失。</p><br>
+			              			</div>
+			              		</li>
+			              		<li class="mui-table-view-cell mui-collapse ldh-unfold" id='sec'>
+			              			<a class="mui-navigate-right sec-font"  href="#">4.做好资料收集人的签字确认</a>
+			              			<div class="mui-collapse-content">
+										<p>（1）若基础资料为客户经理提供的，需见双人见证（客户经理和风险经理或办贷员）。<br>（2）对客户资料进行核实，明确责任人。</p>
+			              			</div>
+			              		</li>
+
+			              	</ul>
+	                    </div>
+	                </div>
+
+					<div class="col-12 col-sm-12 col-md-6 col-lg-3">
+	                    <div class="offer-items app-margin-top">
+	                        <!-- <img src="assets/img/offer/offer_LP_img.png" class="img-fluid" alt="Learning Program"> -->
+	                        <h3 class="text-center">非现场调查</h3>
+	                        <ul class="mui-table-view">
+			        	      		<li class="mui-table-view-cell mui-collapse ldh-unfold" id='sec'>
+			              			<a class="mui-navigate-right sec-font"  href="#" >1.征信检查</a>
+			              			<div class="mui-collapse-content">
+			              				<p>（1）了解客户信用情况。关注借款人的历史不良记录，当前逾期记录,征信查询次数，融资机构家数，融资总额，信用卡使用家数及近半年使用额度，对外担保情况，公积金缴存情况及公共信息情况（司法诉讼情况）。</p><br>
+			              			</div>
+			              		</li>
+			              		<li class="mui-table-view-cell mui-collapse ldh-unfold" id='sec'>
+			              			<a class="mui-navigate-right sec-font"  href="#" >2.行内系统查询</a>
+			              			<div class="mui-collapse-content">
+			              				<p>（1）了解客户我行情况。通过综合管理系统、保证函系统、核心系统、大信贷系统，排查客户的担保情况、黑名单情况、前期的借贷情况、还本付息的情况。</p><br>
+			              			</div>
+			              		</li>
+			              		<li class="mui-table-view-cell mui-collapse ldh-unfold" id='sec'>
+			              			<a class="mui-navigate-right sec-font"  href="#">3.公开信息查询</a>
+			              			<div class="mui-collapse-content">
+										<p>（1）借款政府平台、APP等信息平台。如法院网查询、全国被执行人信息网查询、法院判决文书网、企业信用信息公示系统及企业宝、天眼查等第三方APP信息查询。</p><br>
+			              			</div>
+			              		</li>
+			              		<li class="mui-table-view-cell mui-collapse ldh-unfold" id='sec'>
+			              			<a class="mui-navigate-right sec-font"  href="#">4.村行要求的其他非现场调查要求</a>
+			              			<div class="mui-collapse-content">
+										<p>（1）无法通过系统化查询的信息了解。如家庭关系调查、信贷客户侧面的排摸等，发挥村行深耕地方的自身优势。</p><br>
+			              			</div>
+			              		</li>
+			              		<li class="mui-table-view-cell mui-collapse ldh-unfold" id='sec'>
+			              			<a class="mui-navigate-right sec-font" href="#">5.查看客户我行的资金流和其他业务办理情况</a>
+			              			<div class="mui-collapse-content">
+										<p>（1）更好营销客户。了解客户资金流的同时，提升我行留存率，促使后续更好的营销我行存款、各项关联业务。</p><br>
+			              			</div>
+			              		</li>
+			              		<li class="mui-table-view-cell mui-collapse ldh-unfold" id='sec'>
+			              			<a class="mui-navigate-right sec-font" href="#">6.主要目的</a>
+			              			<div class="mui-collapse-content">
+										<p>（1）在开展现场调查前，对客户有一个初步的了解，便于在现场调查中，开展调查、核对、营销。</p><br>
+			              			</div>
+			              		</li>
+			              	</ul>
+	                    </div>
+	                </div>
+
+					<div class="col-12 col-sm-12 col-md-6 col-lg-3">
+	                    <div class="offer-items app-margin-top">
+	                        <!-- <img src="assets/img/offer/offer_LP_img.png" class="img-fluid" alt="Learning Program"> -->
+	                        <h3 class="text-center">现场调查</h3>
+	                        <ul class="mui-table-view">
+			        	      		<li class="mui-table-view-cell mui-collapse ldh-unfold" id='sec'>
+			              			<a class="mui-navigate-right sec-font"  href="#" >1.对非现场调查信息开展验证</a>
+			              			<div class="mui-collapse-content">
+			              				<p>（1）对前期系统查询到的信息要实地查证。主要来辨别是否对经营情况是否存在夸大、虚构、伪造嫌疑，从另外一个角度可以分析客户的诚信情况。</p><br>
+			              			</div>
+			              		</li>
+			              		<li class="mui-table-view-cell mui-collapse ldh-unfold" id='sec'>
+			              			<a class="mui-navigate-right sec-font"  href="#" >2.了解经营情况、家庭情况</a>
+			              			<div class="mui-collapse-content">
+			              				<p>（1）经营情况。了解工资的发放情况、水电情况、租赁情况、销量和利率的情况。对客户经营的行业，有初步的了解。<br>（2）侧面了解客户家庭情况。对于小额贷款客户，家庭情况的好坏，是发生不良贷款的关键因素。</p><br>
+			              			</div>
+			              		</li>
+			              		<li class="mui-table-view-cell mui-collapse ldh-unfold" id='sec'>
+			              			<a class="mui-navigate-right sec-font"  href="#">3.了解借款用途</a>
+			              			<div class="mui-collapse-content">
+										<p>（1）防范借冒名、垒大户。对客户用途开展调查和询问（如咨询客户资金投向、合伙人情况、客户的上下游关系），避免垒大户和借冒名的发生。<br>（2）有效开展批量化的营销。如客户存在产业化的关系或供应链，应主动对其周边客户、上下游客户开展营销。</p><br>
+			              			</div>
+			              		</li>
+			              		<li class="mui-table-view-cell mui-collapse ldh-unfold" id='sec'>
+			              			<a class="mui-navigate-right sec-font"  href="#">4.对抵押物的排查要点</a>
+			              			<div class="mui-collapse-content">
+										<p>（1）抵押物是否违章。<br>（2）抵押物现场情况与权证信息是否相符。<br>（3）抵押物是否租赁以及租赁情况。<br>（4）是否有其他不利于抵押物后续处置的情况</p><br>
+			              			</div>
+			              		</li>
+			              		<li class="mui-table-view-cell mui-collapse ldh-unfold" id='sec'>
+			              			<a class="mui-navigate-right sec-font" href="#">5.按层级开展调查</a>
+			              			<div class="mui-collapse-content">
+										<p>（1）开展双人调查机制。需根据各个村行自身设置的审批权限，开展层级调查。各村行必须按相应授信层级的相关人员参与，并需在实地调查现场入框拍照留存，作为第一手的现场调查佐证材料。<br>（2）明确告知。告知客户我行不收取任何手续费（可由层级人员告知）。</p><br>
+			              			</div>
+			              		</li>
+			              		<li class="mui-table-view-cell mui-collapse ldh-unfold" id='sec'>
+			              			<a class="mui-navigate-right sec-font" href="#">6.拍照留底</a>
+			              			<div class="mui-collapse-content">
+										<p>（1）对于现场调查中，存在疑点、顾虑的现场情况，需及时拍照留底，便于后续开展分析，必要时能做为佐证材料。（做为保护自身的一种方式）</p>
+			              			</div>
+			              		</li>
+			              	</ul>
+	                    </div>
+	                </div>
+
+					<div class="col-12 col-sm-12 col-md-6 col-lg-3">
+	                    <div class="offer-items app-margin-top">
+	                        <!-- <img src="assets/img/offer/offer_LP_img.png" class="img-fluid" alt="Learning Program"> -->
+	                        <h3 class="text-center">贷后管理</h3>
+	                        <ul class="mui-table-view">
+			        	      		<li class="mui-table-view-cell mui-collapse ldh-unfold" id='sec'>
+			              			<a class="mui-navigate-right sec-font"  href="#" >1.非现场贷后检查<</a>
+			              			<div class="mui-collapse-content">
+			              				<p>（1）应做好贷款发放后七天资金流向跟踪，并填写贷后管理表格放入信贷档案内保管。并根据村行相关要求检查客户经营情况、信用情况。<br>（2）通过三个“集中度”开展。信贷资金流向集中度、还款还息来源集中度、担保人集中度。<br>（3）通过各大系统查询，了解客户信用变化情况（参照非现场调查）</p><br>
+			              			</div>
+			              		</li>
+			              		<li class="mui-table-view-cell mui-collapse ldh-unfold" id='sec'>
+			              			<a class="mui-navigate-right sec-font"  href="#" >2.现场贷后检查</a>
+			              			<div class="mui-collapse-content">
+			              				<p>（1）应通过便捷恒通APP拍摄贷后检查影像，并根据村行相关要求保留影像存档备查。<br>（2）通过现场调查，对客户经营情况进行排摸。（参照现场调查）</p><br>
+			              			</div>
+			              		</li>
+			              		<li class="mui-table-view-cell mui-collapse ldh-unfold" id='sec'>
+			              			<a class="mui-navigate-right sec-font"  href="#">3.贷款利息、贷款到期的催收</a>
+			              			<div class="mui-collapse-content">
+										<p>（1）应在还息日、贷款到期日10天前通知客户在还款账户中存入足额还款资金。</p>	
+			              			</div>
+			              		</li>
+			              		
+			              	</ul>
+	                    </div>
+	                </div>
+
+					<div class="col-12 col-sm-12 col-md-6 col-lg-3">
+	                    <div class="offer-items app-margin-top">
+	                        <!-- <img src="assets/img/offer/offer_LP_img.png" class="img-fluid" alt="Learning Program"> -->
+	                        <h3 class="text-center">信贷文本</h3>
+	                        <ul class="mui-table-view">
+			        	      	<li class="mui-table-view-cell mui-collapse ldh-unfold" id='sec'>
+			              			<a class="mui-navigate-right sec-font"  href="#" >详情</a>
+			              			<div class="mui-collapse-content">
+			              				<p>（1）根据个人、企业，担保方式的不同熟悉信贷文本：包括借款申请书、各类借款合同、各类最高额合同、征信、送达、面谈、授权书、受托支付、保证函、抵押物清单、股东决议等。<br>（2）根据不同的贷款产品，可以所需提供的资料。（如营业执照、身份证、房产证、各类报表等）<br>（3）根据贷款产品和不同的担保方式，能明确知晓贷款的利率。<br>（4）学会征信的如何查看。</p></p>
+			              			</div>
+			              		</li>
+			              	</ul>
+	                    </div>
+	                </div>
+
+					<div class="col-12 col-sm-12 col-md-6 col-lg-3">
+	                    <div class="offer-items app-margin-top">
+	                        <!-- <img src="assets/img/offer/offer_LP_img.png" class="img-fluid" alt="Learning Program"> -->
+	                        <h3 class="text-center">各类系统的操作</h3>
+	                        <ul class="mui-table-view">
+			        	      		<li class="mui-table-view-cell mui-collapse ldh-unfold" id='sec'>
+			              			<a class="mui-navigate-right sec-font"  href="#" >详情</a>
+			              			<div class="mui-collapse-content">
+			              				<p><h4>各类系统的操作</h4><p>（1）核心系统（9122贷款分账户）、(9121查询客户账号)。<br>（2）绩效系统的维护、自身业绩的查看。<br>（3）综合管理系统（贷款资金流向、客户我行的流水、中间业务办理情况）。<br>（4）被执行人网、法院网、企查查、天眼查。<br>（5）保证函系统、大信贷系统的基础操作。</p></p>	
+			              			</div>
+			              		</li>
+			              		
+			              	</ul>
+	                    </div>
+	                </div>
+
+				</div>
+			</div>
+		</div>
+
+
+		<script src="../frame/js/mui.js"></script>
+		<script src="../frame/js/mui.picker.js"></script>
+		<script src="../frame/js/mui.poppicker.js"></script>
+    	<script src="../frame/js/jquery/jquery.min.js"></script>
+		<script src="../frame/css/bootstrap/js/bootstrap.min.js"></script>
+		<script src="../frame/js/plist.js" type="text/javascript" charset="utf-8"></script>
+		<script>
+			(function($, doc) {
+				$.init(	);
+				$.ready(function() {
+					    beforeback: function back ()  {
+					　　　　 //获得父页面的webview
+					        var list = plus.webview.currentWebview().opener();
+					　　　　 //触发父页面的自定义事件(refresh),从而进行刷新
+					        mui.fire(list, 'refresh');
+					        //返回true,继续页面关闭逻辑
+					        return true;
+					    }
+
+					    function hasClass(obj, cls) {  
+			                return obj.className.match(new RegExp('(\\s|^)' + cls + '(\\s|$)'));  
+			            } 
+			 
+			            function addClass(obj, cls) {  
+			                if (!hasClass(obj, cls)) obj.className += " " + cls;  
+							console.log(obj.className);
+
+			            }  
+
+			            function removeClass(obj, cls) {  
+			                if (hasClass(obj, cls)) {  
+			                    var reg = new RegExp('(\\s|^)' + cls + '(\\s|$)');  
+			                    obj.className = obj.className.replace(reg, '');  
+			                }  
+			            }
+
+
+						function changeColor(obj){
+							if(obj.style.backgroundColor=='rgb(67, 106, 134)'){
+								obj.style.backgroundColor="#fca600";
+								obj.style.color="#fff";				
+							}
+							else{
+								obj.style.backgroundColor="#436a86";
+								obj.style.color="#fff";										
+							}
+						}	
+
+			            mui('.offer-items').on('tap','.mui-navigate-right',function(){
+
+							//console.log(this.parentNode);
+							if(hasClass(this.parentNode,'mui-active')){
+								//console.log("11111");
+								addClass(this.parentNode,'mui-active');
+							}else{
+								//console.log("2222");
+								removeClass(this.parentNode,'mui-active');
+							}
+							//回收其他所有页面的展开节点
+							var bigft=this.parentNode.parentNode.parentNode.parentNode.parentNode.children	
+							for(var i=0;i<bigft.length;i++){
+								if(bigft[i].querySelector('.mui-table-view')){
+									var tbview=bigft[i].querySelector('.mui-table-view');
+									var tbviewli=tbview.children;
+
+					                for(var j=0;j<tbviewli.length;j++){
+										//console.log(tbviewli[j]);
+										if(tbviewli[j]==this.parentNode){
+											//console.log("!!!!!!!");
+											continue;
+										}
+										removeClass(tbviewli[j],'mui-active');
+					                }	
+
+								}
+
+
+							}
+
+
+							// changeColor(this);
+							if(this.parentNode.id == 'sec'){
+								
+								var chilcnt=this.parentNode.querySelector('.mui-collapse-content');
+								var chilarrow=this.parentNode.querySelector('.mui-navigate-right');
+								
+
+											
+							}else{
+								if(this.parentNode.querySelector('.mui-table-view') != null) {
+									
+									var childul=this.parentNode.querySelector('.mui-table-view');
+									
+									var childulli=childul.children;//getElementsByClassName('sec');
+									
+					                for(var i=0;i<childulli.length;i++){
+										childulli[i].querySelector('.mui-collapse-content').style.display="none"
+										removeClass(childulli[i],'mui-active');
+										//console.log(childulli[i].childNodes[1]);
+										childulli[i].childNodes[1].style.backgroundColor="#436a86";
+										childulli[i].childNodes[1].style.color="#fff";	
+
+					                }	
+
+								}
+								
+							}
+
+
+			            });
+
+
+
+				});
+			})(mui, document);
+		</script>
+	</body>
+
+</html>
